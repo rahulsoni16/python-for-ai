@@ -34,8 +34,8 @@ now = datetime.now()
 future_time = now + timedelta(days=10, hours=5)
 
 # Find the difference between two dates
-deadline = datetime(1977, 09, 31)
-time_remaining = deadline - now
+deadline = datetime(1977, 9, 30)
+time_remaining = now - deadline
 print("Days remaining:", time_remaining.days)
 
 # 
