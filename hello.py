@@ -70,3 +70,11 @@ for i in range(1, 6):
 for i in range(1,10,2):
     print(f"Odd number: {i}")
 
+
+# error handling
+try:
+    result = 10 / 2
+except ZeroDivisionError:
+    print("Error: Division by zero is not allowed.") 
+finally:
+    print("Execution completed.")
