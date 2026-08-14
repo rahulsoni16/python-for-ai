@@ -1,3 +1,38 @@
+Recipe Generator Streamlit App
+=============================
+
+Setup
+-----
+
+1. Create a `.env` file in the project root and set your Gemini API key:
+
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run
+----
+
+Start the Streamlit app:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+Usage
+-----
+Enter ingredients as comma-separated text, choose a cuisine and diet, then click "Generate recipe".
+
+Notes
+-----
+- The app forwards prompts to the Gemini client via `AskGemini.py`.
+- If you prefer a different LLM client, update `AskGemini.py` accordingly.
 #python-for-ai
 
 
