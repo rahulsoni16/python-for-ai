@@ -12,7 +12,7 @@ try:
     client = genai.Client()
 
     response = client.models.generate_content(
-        model="gemini-3.5-flash", contents="Write a short poem about the beauty of nature."
+        model="gemini-3.5-flash", contents="What is my name?"
     )
 except Exception as e:
     print(f"Error: {e}")
